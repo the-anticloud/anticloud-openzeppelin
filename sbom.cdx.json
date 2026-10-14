@@ -1,0 +1,362 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.5",
+ "serialNumber": "urn:uuid:06b4f59d-de8d-5403-b4b0-705e5a0ae45f",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-10-06T16:35:04Z",
+  "component": {
+   "type": "application",
+   "name": "OPENZEPPELIN",
+   "version": "83b357604d34",
+   "bom-ref": "pkg:generic/anticloud/OPENZEPPELIN@83b357604d34",
+   "purl": "pkg:generic/anticloud/OPENZEPPELIN@83b357604d34",
+   "licenses": [
+    {
+     "license": {
+      "id": "MIT"
+     }
+    }
+   ]
+  },
+  "properties": [
+   {
+    "name": "anticloud:source-commit",
+    "value": "null"
+   },
+   {
+    "name": "anticloud:source-url",
+    "value": "https://github.com/the-anticloud/OPENMRS_CORE.git"
+   },
+   {
+    "name": "anticloud:tier",
+    "value": "tier-agent"
+   }
+  ]
+ },
+ "components": [
+  {
+   "type": "library",
+   "name": "@changesets/changelog-github",
+   "version": "^1.0.0",
+   "purl": "pkg:npm/@changesets/changelog-github@^1.0.0",
+   "bom-ref": "npm/@changesets/changelog-github@^1.0.0"
+  },
+  {
+   "type": "library",
+   "name": "@changesets/cli",
+   "version": "^3.0.0",
+   "purl": "pkg:npm/@changesets/cli@^3.0.0",
+   "bom-ref": "npm/@changesets/cli@^3.0.0"
+  },
+  {
+   "type": "library",
+   "name": "@changesets/pre",
+   "version": "^3.0.0",
+   "purl": "pkg:npm/@changesets/pre@^3.0.0",
+   "bom-ref": "npm/@changesets/pre@^3.0.0"
+  },
+  {
+   "type": "library",
+   "name": "@changesets/read",
+   "version": "^1.0.0",
+   "purl": "pkg:npm/@changesets/read@^1.0.0",
+   "bom-ref": "npm/@changesets/read@^1.0.0"
+  },
+  {
+   "type": "library",
+   "name": "@eslint/compat",
+   "version": "^1.2.1",
+   "purl": "pkg:npm/@eslint/compat@^1.2.1",
+   "bom-ref": "npm/@eslint/compat@^1.2.1"
+  },
+  {
+   "type": "library",
+   "name": "@ethereumjs/mpt",
+   "version": "^10.1.0",
+   "purl": "pkg:npm/@ethereumjs/mpt@^10.1.0",
+   "bom-ref": "npm/@ethereumjs/mpt@^10.1.0"
+  },
+  {
+   "type": "library",
+   "name": "@noble/curves",
+   "version": "^2.0.1",
+   "purl": "pkg:npm/@noble/curves@^2.0.1",
+   "bom-ref": "npm/@noble/curves@^2.0.1"
+  },
+  {
+   "type": "library",
+   "name": "@nomicfoundation/hardhat-ethers",
+   "version": "^4.0.14",
+   "purl": "pkg:npm/@nomicfoundation/hardhat-ethers@^4.0.14",
+   "bom-ref": "npm/@nomicfoundation/hardhat-ethers@^4.0.14"
+  },
+  {
+   "type": "library",
+   "name": "@nomicfoundation/hardhat-ethers-chai-matchers",
+   "version": "^3.0.11",
+   "purl": "pkg:npm/@nomicfoundation/hardhat-ethers-chai-matchers@^3.0.11",
+   "bom-ref": "npm/@nomicfoundation/hardhat-ethers-chai-matchers@^3.0.11"
+  },
+  {
+   "type": "library",
+   "name": "@nomicfoundation/hardhat-mocha",
+   "version": "^4.0.0",
+   "purl": "pkg:npm/@nomicfoundation/hardhat-mocha@^4.0.0",
+   "bom-ref": "npm/@nomicfoundation/hardhat-mocha@^4.0.0"
+  },
+  {
+   "type": "library",
+   "name": "@nomicfoundation/hardhat-network-helpers",
+   "version": "^3.0.11",
+   "purl": "pkg:npm/@nomicfoundation/hardhat-network-helpers@^3.0.11",
+   "bom-ref": "npm/@nomicfoundation/hardhat-network-helpers@^3.0.11"
+  },
+  {
+   "type": "library",
+   "name": "@openzeppelin/docs-utils",
+   "version": "^0.1.6",
+   "purl": "pkg:npm/@openzeppelin/docs-utils@^0.1.6",
+   "bom-ref": "npm/@openzeppelin/docs-utils@^0.1.6"
+  },
+  {
+   "type": "library",
+   "name": "@openzeppelin/merkle-tree",
+   "version": "^1.0.7",
+   "purl": "pkg:npm/@openzeppelin/merkle-tree@^1.0.7",
+   "bom-ref": "npm/@openzeppelin/merkle-tree@^1.0.7"
+  },
+  {
+   "type": "library",
+   "name": "@openzeppelin/upgrade-safe-transpiler",
+   "version": "^0.4.2",
+   "purl": "pkg:npm/@openzeppelin/upgrade-safe-transpiler@^0.4.2",
+   "bom-ref": "npm/@openzeppelin/upgrade-safe-transpiler@^0.4.2"
+  },
+  {
+   "type": "library",
+   "name": "@openzeppelin/upgrades-core",
+   "version": "^1.20.6",
+   "purl": "pkg:npm/@openzeppelin/upgrades-core@^1.20.6",
+   "bom-ref": "npm/@openzeppelin/upgrades-core@^1.20.6"
+  },
+  {
+   "type": "library",
+   "name": "@types/node",
+   "version": "^25.9.4",
+   "purl": "pkg:npm/@types/node@^25.9.4",
+   "bom-ref": "npm/@types/node@^25.9.4"
+  },
+  {
+   "type": "library",
+   "name": "@types/yargs",
+   "version": "^17.0.35",
+   "purl": "pkg:npm/@types/yargs@^17.0.35",
+   "bom-ref": "npm/@types/yargs@^17.0.35"
+  },
+  {
+   "type": "library",
+   "name": "chai",
+   "version": "^5.3.3",
+   "purl": "pkg:npm/chai@^5.3.3",
+   "bom-ref": "npm/chai@^5.3.3"
+  },
+  {
+   "type": "library",
+   "name": "eslint",
+   "version": "^9.0.0",
+   "purl": "pkg:npm/eslint@^9.0.0",
+   "bom-ref": "npm/eslint@^9.0.0"
+  },
+  {
+   "type": "library",
+   "name": "eslint-config-prettier",
+   "version": "^10.0.0",
+   "purl": "pkg:npm/eslint-config-prettier@^10.0.0",
+   "bom-ref": "npm/eslint-config-prettier@^10.0.0"
+  },
+  {
+   "type": "library",
+   "name": "eslint-plugin-mocha",
+   "version": "^11.3.0",
+   "purl": "pkg:npm/eslint-plugin-mocha@^11.3.0",
+   "bom-ref": "npm/eslint-plugin-mocha@^11.3.0"
+  },
+  {
+   "type": "library",
+   "name": "eta",
+   "version": "^4.6.0",
+   "purl": "pkg:npm/eta@^4.6.0",
+   "bom-ref": "npm/eta@^4.6.0"
+  },
+  {
+   "type": "library",
+   "name": "ethers",
+   "version": "^6.16.0",
+   "purl": "pkg:npm/ethers@^6.16.0",
+   "bom-ref": "npm/ethers@^6.16.0"
+  },
+  {
+   "type": "library",
+   "name": "glob",
+   "version": "^13.0.0",
+   "purl": "pkg:npm/glob@^13.0.0",
+   "bom-ref": "npm/glob@^13.0.0"
+  },
+  {
+   "type": "library",
+   "name": "globals",
+   "version": "^17.0.0",
+   "purl": "pkg:npm/globals@^17.0.0",
+   "bom-ref": "npm/globals@^17.0.0"
+  },
+  {
+   "type": "library",
+   "name": "graphlib",
+   "version": "^2.1.8",
+   "purl": "pkg:npm/graphlib@^2.1.8",
+   "bom-ref": "npm/graphlib@^2.1.8"
+  },
+  {
+   "type": "library",
+   "name": "handlebars",
+   "version": "^4.7.9",
+   "purl": "pkg:npm/handlebars@^4.7.9",
+   "bom-ref": "npm/handlebars@^4.7.9"
+  },
+  {
+   "type": "library",
+   "name": "hardhat",
+   "version": "^3.9.1",
+   "purl": "pkg:npm/hardhat@^3.9.1",
+   "bom-ref": "npm/hardhat@^3.9.1"
+  },
+  {
+   "type": "library",
+   "name": "hardhat-ignore-warnings",
+   "version": "^0.3.0",
+   "purl": "pkg:npm/hardhat-ignore-warnings@^0.3.0",
+   "bom-ref": "npm/hardhat-ignore-warnings@^0.3.0"
+  },
+  {
+   "type": "library",
+   "name": "hardhat-predeploy",
+   "version": "^1.0.1",
+   "purl": "pkg:npm/hardhat-predeploy@^1.0.1",
+   "bom-ref": "npm/hardhat-predeploy@^1.0.1"
+  },
+  {
+   "type": "library",
+   "name": "husky",
+   "version": "^9.1.7",
+   "purl": "pkg:npm/husky@^9.1.7",
+   "bom-ref": "npm/husky@^9.1.7"
+  },
+  {
+   "type": "library",
+   "name": "interoperable-addresses",
+   "version": "^0.1.3",
+   "purl": "pkg:npm/interoperable-addresses@^0.1.3",
+   "bom-ref": "npm/interoperable-addresses@^0.1.3"
+  },
+  {
+   "type": "library",
+   "name": "lint-staged",
+   "version": "^17.0.0",
+   "purl": "pkg:npm/lint-staged@^17.0.0",
+   "bom-ref": "npm/lint-staged@^17.0.0"
+  },
+  {
+   "type": "library",
+   "name": "lodash.startcase",
+   "version": "^4.4.0",
+   "purl": "pkg:npm/lodash.startcase@^4.4.0",
+   "bom-ref": "npm/lodash.startcase@^4.4.0"
+  },
+  {
+   "type": "library",
+   "name": "micromatch",
+   "version": "^4.0.2",
+   "purl": "pkg:npm/micromatch@^4.0.2",
+   "bom-ref": "npm/micromatch@^4.0.2"
+  },
+  {
+   "type": "library",
+   "name": "p-limit",
+   "version": "^7.0.0",
+   "purl": "pkg:npm/p-limit@^7.0.0",
+   "bom-ref": "npm/p-limit@^7.0.0"
+  },
+  {
+   "type": "library",
+   "name": "prettier",
+   "version": "^3.0.0",
+   "purl": "pkg:npm/prettier@^3.0.0",
+   "bom-ref": "npm/prettier@^3.0.0"
+  },
+  {
+   "type": "library",
+   "name": "prettier-plugin-solidity",
+   "version": "^2.0.0",
+   "purl": "pkg:npm/prettier-plugin-solidity@^2.0.0",
+   "bom-ref": "npm/prettier-plugin-solidity@^2.0.0"
+  },
+  {
+   "type": "library",
+   "name": "rimraf",
+   "version": "^6.0.0",
+   "purl": "pkg:npm/rimraf@^6.0.0",
+   "bom-ref": "npm/rimraf@^6.0.0"
+  },
+  {
+   "type": "library",
+   "name": "semver",
+   "version": "^7.3.5",
+   "purl": "pkg:npm/semver@^7.3.5",
+   "bom-ref": "npm/semver@^7.3.5"
+  },
+  {
+   "type": "library",
+   "name": "solhint",
+   "version": "^6.2.3",
+   "purl": "pkg:npm/solhint@^6.2.3",
+   "bom-ref": "npm/solhint@^6.2.3"
+  },
+  {
+   "type": "library",
+   "name": "solhint-plugin-openzeppelin",
+   "version": "file:scripts/solhint-custom",
+   "purl": "pkg:npm/solhint-plugin-openzeppelin@file:scripts/solhint-custom",
+   "bom-ref": "npm/solhint-plugin-openzeppelin@file:scripts/solhint-custom"
+  },
+  {
+   "type": "library",
+   "name": "solidity-ast",
+   "version": "^0.4.61",
+   "purl": "pkg:npm/solidity-ast@^0.4.61",
+   "bom-ref": "npm/solidity-ast@^0.4.61"
+  },
+  {
+   "type": "library",
+   "name": "undici",
+   "version": "^8.2.0",
+   "purl": "pkg:npm/undici@^8.2.0",
+   "bom-ref": "npm/undici@^8.2.0"
+  },
+  {
+   "type": "library",
+   "name": "yargs",
+   "version": "^18.0.0",
+   "purl": "pkg:npm/yargs@^18.0.0",
+   "bom-ref": "npm/yargs@^18.0.0"
+  },
+  {
+   "type": "library",
+   "name": "minimatch",
+   "version": "^10.2.2",
+   "purl": "pkg:npm/minimatch@^10.2.2",
+   "bom-ref": "npm/minimatch@^10.2.2"
+  }
+ ],
+ "sha_unverified": true
+}
